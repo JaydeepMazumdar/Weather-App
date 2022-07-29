@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  cursor: default;
+}
+
+.window {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  background-image: url(../image/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 2.5rem;
+    color: black;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+h1 img{
+    width: 60px;
+    height: 60px;
+    margin-left: 36%;
+    margin-top: -1%;
+    clip-path: circle(35% at 50% 50%);
+}
+
+.box {
+    width: 25rem;
+    height: 31rem;
+    /* overflow: hidden; */
+    align-self: center;
+    /* background: whitesmoke; */
+    background: rgba(255, 255, 255, 0.596);  
+  margin-top: 1rem;
+  border-radius: 20px;
+  /* color: white; */
+  color: black;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.data {
+    width: 100%;
+    height: 80%;
+}
+
+form {
+    margin: 20px;
+}
+
+.searchBar {
+    width: 80%;
+    height: 2rem;
+    border: none;
+    outline: 0;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 1.2rem;
+    background: transparent;
+    cursor: text;
+    /* background-color: white; */
+    border: 2px solid gray;
+}
+
+.searchBar:focus {
+    background-color: white;
+}
+
+.searchBar:focus::placeholder {
+    font-size: 0;
+}
+
+.searchButn {
+    width: 3rem;
+    height: 3rem;
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+    color: black;
+    cursor: pointer;
+}
+
+.searchButn:hover{
+    background: white;
+    color: #2f69fe;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-size: 900;
+}
+
+h2 i{
+    color: orange;
+}
+
+.box_1 {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    margin: 0;
+    border-bottom: 1px solid gray;
+    /* padding: 40px; */
+    
+    /* background: white; */
+}
+
+img {
+    position: absolute;
+    transform: scale(1.3);
+    top: 0.7rem;
+    left: 2rem;
+}
+
+span {
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.tmp {
+    position: absolute;
+    text-align: right;
+    top: 2rem;
+    font-size: 2.5rem;
+    right: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    position: absolute;
+    bottom: 2rem;
+    font-size: 1.4rem;
+    right: 2rem;
+    font-family: 'Merriweather', serif;       
+}
+
+.dt{
+    position: absolute;
+    bottom: 0.8rem;
+    right: 2rem;
+    font-weight: 700;
+    /* font-family: 'Merriweather', serif;        */
+}
+
+.box2 {
+    display: grid;
+    /* background: black; */
+    width: 100%;
+    height: 52%;
+    padding: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.boxes {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid gray; */
+    /* flex-direction: row; */
+    border: none;
+    /* background: whitesmoke; */
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,0.2);
+    border-radius: 5px;    
+}
+
+.boxes i {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-size: 2rem;
+    /* color: rgb(88, 57, 116); */
+    color: #2f69fe;
+}
+
+.boxes .atrb {
+  position: absolute;
+  bottom: 0.1rem;
+  left: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.boxes .num {
+    position: absolute;
+    bottom: 1.7rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}

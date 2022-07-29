@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/eaf885ca1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@1,700&family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="window">
+        
+        <h1><img src="./image/sun.webp" alt=""> Weather App</h1>
+
+        <div class="box">
+            <form>
+                <input
+                  class="searchBar"
+                  type="search"
+                  id="city"
+                  placeholder="Enter city name"
+                />
+                <button class="searchButn" id="butn" type="button">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <div class="data tday" id="display-area">
+                Fetching data ...
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="./script/index.js" defer></script>
+</html>
